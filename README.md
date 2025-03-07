@@ -20,7 +20,7 @@ This project is ideal for individuals seeking to deepen their understanding of d
 
 - [Overview](#overview)
 - [Project Description](#Project-Description)
-- [Features](#features)
+- [Features](#Features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
