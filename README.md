@@ -189,59 +189,60 @@ To effectively utilize the Digital Alarm Clock on your FPGA development board, f
 
 **Note:** The specific buttons or switches for each function may vary depending on your FPGA board's configuration. Consult your board's manual or the project's documentation for precise details.
 
-An organized and visually appealing project structure enhances the readability and maintainability of your Digital Alarm Clock repository. Here's a suggested layout:
+To provide a clear and organized overview of your Digital Alarm Clock project, here's a structured representation of your project's directory, along with brief explanations for each component. You can incorporate this directly into your `README.md` file to enhance clarity for collaborators and users.
+
+## Project Structure
 
 ```
 Digital-Alarm-Clock/
-├── docs/
-│   ├── images/
-│   │   ├── circuit_diagram.png
-│   │   └── lcd_display.png
-│   └── user_manual.md
-├── hardware/
-│   ├── src/
-│   │   ├── alarm_controller.v
-│   │   ├── rtc_module.v
-│   │   └── lcd_interface.v
-│   └── testbench/
-│       ├── alarm_controller_tb.v
-│       └── rtc_module_tb.v
-├── software/
-│   ├── firmware/
-│   │   └── main.c
-│   └── simulation/
-│       └── lcd_simulation.py
-├── fpga/
-│   ├── quartus_project.qpf
-│   └── quartus_settings.qsf
-├── sim/
-│   ├── modelsim/
-│   │   ├── alarm_controller.do
-│   │   └── rtc_module.do
-│   └── results/
-│       ├── alarm_controller_waveform.vcd
-│       └── rtc_module_waveform.vcd
-├── .gitignore
-├── LICENSE
+├── RTL Designs/
+│   ├── Alarm Controller.v
+│   ├── Timing_Generator.v
+│   ├── alarm_clock_top.v
+│   ├── alarm_reg.v
+│   ├── counter.v
+│   ├── keyreg.v
+│   ├── lcd driver.v
+│   └── lcd driver 4.v
+├── Test Benches/
+│   ├── Alarm Controller TB.v
+│   ├── Timing_Generator_TB.v
+│   ├── alarm_clock_top_TB.v
+│   ├── alarm_reg_TB.v
+│   ├── counter TB.v
+│   ├── keyreg_TB.v
+│   ├── lcd driver TB.v
+│   └── lcd driver 4 TB.v
+├── Results/
+│   ├── Gate Level Netlist.png
+│   ├── Simulation Wave.png
+│   ├── State Machine Viewer.png
+│   └── State Transition Table.png
 └── README.md
 ```
 
 **Directory Breakdown:**
 
-- **docs/**: Contains documentation files, including images and user manuals.
+- **RTL Designs/**: Contains Verilog modules that define the Register-Transfer Level (RTL) design of the digital alarm clock.
+  - `Alarm Controller.v`: Manages the alarm functionalities, including setting and triggering alarms.
+  - `Timing_Generator.v`: Generates precise timing signals required for the clock's operation.
+  - `alarm_clock_top.v`: Top-level module integrating all sub-modules of the alarm clock.
+  - `alarm_reg.v`: Handles the storage and management of alarm settings.
+  - `counter.v`: Implements counting mechanisms for timekeeping.
+  - `keyreg.v`: Manages user input from buttons or keys.
+  - `lcd driver.v` & `lcd driver 4.v`: Control the LCD display for time and alarm information.
 
-- **hardware/**: Holds Verilog source files and corresponding testbenches.
+- **Test Benches/**: Includes testbench files for simulating and verifying the functionality of the RTL modules.
+  - `Alarm Controller TB.v`: Testbench for the Alarm Controller module.
+  - `Timing_Generator_TB.v`: Testbench for the Timing Generator module.
+  - `alarm_clock_top_TB.v`: Testbench for the top-level alarm clock module.
+  - `alarm_reg_TB.v`, `counter TB.v`, `keyreg_TB.v`, `lcd driver TB.v`, `lcd driver 4 TB.v`: Testbenches for their respective modules.
 
-- **software/**: Includes firmware code and simulation scripts.
+- **Results/**: Stores outputs and analyses from simulations and synthesis processes.
+  - `Gate Level Netlist.png`: Visual representation of the synthesized gate-level netlist.
+  - `Simulation Wave.png`: Waveform results from module simulations.
+  - `State Machine Viewer.png`: Diagram of the state machine used in the design.
+  - `State Transition Table.png`: Table detailing state transitions within the state machine.
 
-- **fpga/**: Contains FPGA project files specific to Intel Quartus Prime.
+- **README.md**: Provides an overview and documentation of the project.
 
-- **sim/**: Houses simulation scripts and results, organized by tool (e.g., ModelSim).
-
-- **.gitignore**: Specifies intentionally untracked files to ignore.
-
-- **LICENSE**: Details the licensing information for the project.
-
-- **README.md**: Provides an overview and instructions for the project.
-
-This structure ensures a clean separation of different project components, facilitating easier navigation and collaboration. 
