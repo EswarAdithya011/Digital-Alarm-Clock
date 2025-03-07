@@ -246,3 +246,66 @@ Digital-Alarm-Clock/
 
 - **README.md**: Provides an overview and documentation of the project.
 
+  To encourage and guide contributions to your Digital Alarm Clock project, it's beneficial to include a `CONTRIBUTING.md` file in your repository. This file provides potential contributors with clear instructions on how to participate effectively. Below is a template you can adapt for your project:
+
+```
+# Contributing to Digital Alarm Clock
+
+First off, thank you for considering contributing to our project! Your involvement is vital for its success.
+
+## How Can I Contribute?
+
+### Reporting Bugs
+
+If you encounter any bugs, please open an issue and include:
+
+- A clear and descriptive title.
+- Steps to reproduce the issue.
+- Expected and actual results.
+- Any relevant logs or screenshots.
+
+### Suggesting Enhancements
+
+We welcome suggestions to improve the project. To propose an enhancement:
+
+- Open a new issue with the tag `enhancement`.
+- Provide a detailed description of the proposed change.
+- Explain the benefits and potential drawbacks.
+
+### Submitting Pull Requests
+
+To contribute code:
+
+1. **Fork the Repository**: Create your own copy of the project.
+2. **Create a Branch**: Use a descriptive name (e.g., `feature/add-alarm-snooze`).
+3. **Commit Changes**: Ensure your commits are clear and concise.
+4. **Push to Your Fork**: Upload your changes to your GitHub account.
+5. **Open a Pull Request**: Submit your changes for review.
+
+**Note**: Ensure your code adheres to our coding standards and includes necessary tests.
+
+## Code of Conduct
+
+By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md), fostering a respectful and inclusive environment.
+
+## Additional Resources
+
+- [Project Documentation](docs/)
+- [Issue Tracker](issues/)
+- [Contact Maintainers](mailto:maintainers@example.com)
+
+Thank you for your contributions!
+```
+
+**Implementation Steps:**
+
+1. **Create the `CONTRIBUTING.md` File**: Place this file in the root directory of your repository.
+
+2. **Customize the Template**: Replace placeholders (e.g., `maintainers@example.com`) with actual information relevant to your project.
+
+3. **Link to the Code of Conduct**: If you have a `CODE_OF_CONDUCT.md` file, ensure the link is correct. If not, consider creating one to outline expected behaviors.
+
+4. **Update Additional Resources**: Ensure links to documentation, issue trackers, and contact information are accurate.
+
+By providing clear contributing guidelines, you make it easier for others to participate, enhancing collaboration and the overall quality of the project. 
+
