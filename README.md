@@ -53,6 +53,8 @@ The LCD controller manages the display of current time and alarm settings on an 
 
 The system includes user interface controls, such as buttons or switches, allowing users to set the current time, configure alarm times, and deactivate alarms. These controls facilitate seamless interaction with the digital alarm clock.
 
+​Apologies for the earlier formatting issue. Here's the corrected **Installation** section for your Digital Alarm Clock project, including a direct link to the video tutorial:
+
 ## Installation
 
 To set up the Digital Alarm Clock project, follow these steps:
@@ -87,7 +89,7 @@ To set up the Digital Alarm Clock project, follow these steps:
 
      - **Video Tutorial:** For a step-by-step walkthrough, watch the following video:
 
-       videoModelSim Intel FPGA Edition: Installation and setup guideturn0search0
+       [ModelSim Intel FPGA Edition: Installation and setup guide](https://www.youtube.com/watch?v=C5J_G7qcfm4)
 
    Ensure that both tools are correctly installed and configured before proceeding.
 
