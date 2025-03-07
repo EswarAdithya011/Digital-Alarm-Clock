@@ -189,26 +189,59 @@ To effectively utilize the Digital Alarm Clock on your FPGA development board, f
 
 **Note:** The specific buttons or switches for each function may vary depending on your FPGA board's configuration. Consult your board's manual or the project's documentation for precise details.
 
-   ## Project Structure 
-   Digital-Alarm-Clock/
-   ├── RTL Designs/
-   │   ├── alarm_controller.v
-   │   ├── rtc_module.v
-   │   └── lcd_interface.v
-   ├── Test Benches/
-   │   ├── alarm_controller_tb.v
-   │   └── rtc_module_tb.v
-   ├── Results/
-   │   ├── simulation_waveforms/
-   │   │   ├── alarm_controller_waveform.vcd
-   │   │   └── rtc_module_waveform.vcd
-   │   └── synthesis_reports/
-   │       ├── timing_analysis.txt
-   │       └── resource_utilization.txt
-   ├── docs/
-   │   ├── images/
-   │   │   ├── circuit_diagram.png
-   │   │   └── lcd_display.png
-   │   └── user_manual.md
-   ├── .gitignore
-   └── README.md
+An organized and visually appealing project structure enhances the readability and maintainability of your Digital Alarm Clock repository. Here's a suggested layout:
+
+```
+Digital-Alarm-Clock/
+├── docs/
+│   ├── images/
+│   │   ├── circuit_diagram.png
+│   │   └── lcd_display.png
+│   └── user_manual.md
+├── hardware/
+│   ├── src/
+│   │   ├── alarm_controller.v
+│   │   ├── rtc_module.v
+│   │   └── lcd_interface.v
+│   └── testbench/
+│       ├── alarm_controller_tb.v
+│       └── rtc_module_tb.v
+├── software/
+│   ├── firmware/
+│   │   └── main.c
+│   └── simulation/
+│       └── lcd_simulation.py
+├── fpga/
+│   ├── quartus_project.qpf
+│   └── quartus_settings.qsf
+├── sim/
+│   ├── modelsim/
+│   │   ├── alarm_controller.do
+│   │   └── rtc_module.do
+│   └── results/
+│       ├── alarm_controller_waveform.vcd
+│       └── rtc_module_waveform.vcd
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+**Directory Breakdown:**
+
+- **docs/**: Contains documentation files, including images and user manuals.
+
+- **hardware/**: Holds Verilog source files and corresponding testbenches.
+
+- **software/**: Includes firmware code and simulation scripts.
+
+- **fpga/**: Contains FPGA project files specific to Intel Quartus Prime.
+
+- **sim/**: Houses simulation scripts and results, organized by tool (e.g., ModelSim).
+
+- **.gitignore**: Specifies intentionally untracked files to ignore.
+
+- **LICENSE**: Details the licensing information for the project.
+
+- **README.md**: Provides an overview and instructions for the project.
+
+This structure ensures a clean separation of different project components, facilitating easier navigation and collaboration. 
