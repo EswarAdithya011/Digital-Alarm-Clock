@@ -190,3 +190,38 @@ To effectively utilize the Digital Alarm Clock on your FPGA development board, f
 **Note:** The specific buttons or switches for each function may vary depending on your FPGA board's configuration. Consult your board's manual or the project's documentation for precise details.
 
 By following these instructions, you can effectively operate the Digital Alarm Clock implemented on your FPGA development board. 
+
+To include your project's directory structure directly in your `README.md`, you can utilize the following Markdown-formatted code block:
+
+```markdown
+## Project Structure
+
+```
+Digital-Alarm-Clock/
+├── RTL Designs/
+│   ├── alarm_controller.v
+│   ├── rtc_module.v
+│   └── lcd_interface.v
+├── Test Benches/
+│   ├── alarm_controller_tb.v
+│   └── rtc_module_tb.v
+├── Results/
+│   ├── simulation_waveforms/
+│   │   ├── alarm_controller_waveform.vcd
+│   │   └── rtc_module_waveform.vcd
+│   └── synthesis_reports/
+│       ├── timing_analysis.txt
+│       └── resource_utilization.txt
+├── docs/
+│   ├── images/
+│   │   ├── circuit_diagram.png
+│   │   └── lcd_display.png
+│   └── user_manual.md
+├── .gitignore
+└── README.md
+```
+```
+
+**Note:** To ensure proper formatting, wrap the directory structure within triple backticks (\`\`\`) in your Markdown file. This will render the structure as a code block, preserving the indentation and layout.
+
+By incorporating this structured representation, readers can quickly grasp the organization of your project, enhancing clarity and navigability. 
