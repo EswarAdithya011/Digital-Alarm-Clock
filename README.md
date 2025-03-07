@@ -15,3 +15,15 @@ This project involves designing and implementing a digital alarm clock using Ver
 The project is structured to facilitate simulation and testing, with test benches provided for each module to verify functionality. Simulation results and waveform analyses are included to demonstrate the correct operation of the alarm clock.
 
 This project is ideal for individuals seeking to deepen their understanding of digital design and FPGA-based system implementation. 
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
