@@ -53,6 +53,72 @@ The LCD controller manages the display of current time and alarm settings on an 
 
 The system includes user interface controls, such as buttons or switches, allowing users to set the current time, configure alarm times, and deactivate alarms. These controls facilitate seamless interaction with the digital alarm clock.
 
----
+## Installation
 
-This structured approach ensures that each feature is clearly defined and easily navigable within the README file, enhancing the overall user experience. 
+To set up the Digital Alarm Clock project, follow these steps:
+
+1. **Clone the Repository:**
+
+   Open your terminal or command prompt and execute:
+
+   ```bash
+   git clone https://github.com/EswarAdithya011/Digital-Alarm-Clock.git
+   ```
+
+2. **Navigate to the Project Directory:**
+
+   Move into the project's directory:
+
+   ```bash
+   cd Digital-Alarm-Clock
+   ```
+
+3. **Install Required Software:**
+
+   Ensure that the following software tools are installed on your system:
+
+   - **Intel Quartus Prime:** This FPGA development software is essential for compiling and synthesizing your Verilog designs.
+
+     - **Installation Guide:** Refer to the [Intel Quartus Prime Pro Edition User Guide: Getting Started](https://cdrdv2-public.intel.com/790425/ug-683463-790425.pdf) for detailed installation instructions.
+
+   - **ModelSim (Intel FPGA Edition):** A simulation tool used to verify the functionality of your Verilog code.
+
+     - **Installation Guide:** Detailed instructions are available in the [ModelSim Intel FPGA Edition: Installation and setup guide](https://www.youtube.com/watch?v=C5J_G7qcfm4).
+
+     - **Video Tutorial:** For a step-by-step walkthrough, watch the following video:
+
+       videoModelSim Intel FPGA Edition: Installation and setup guideturn0search0
+
+   Ensure that both tools are correctly installed and configured before proceeding.
+
+4. **Open the Project in Quartus Prime:**
+
+   - Launch Intel Quartus Prime.
+
+   - Navigate to **File > Open Project**.
+
+   - Select the `Digital-Alarm-Clock.qpf` file located in the project directory.
+
+5. **Compile the Design:**
+
+   - In Quartus Prime, click on **Processing > Start Compilation**.
+
+   - Wait for the compilation process to complete. Ensure there are no errors before proceeding.
+
+6. **Simulate the Design (Optional but Recommended):**
+
+   - Open ModelSim.
+
+   - Load the compiled design to simulate and verify its functionality.
+
+   - For guidance on using ModelSim, consult the [ModelSim SE 6.6b Installation and Licensing Guide](https://manualzz.com/doc/html/6982033/mentor-graphics-se-6.6b-modelsim-installation-and-licensi...).
+
+7. **Program the FPGA:**
+
+   - Connect your FPGA development board to your computer.
+
+   - In Quartus Prime, navigate to **Tools > Programmer**.
+
+   - Add the compiled `.sof` file and click **Start** to program the FPGA.
+
+By following these steps, you will have successfully set up and programmed the Digital Alarm Clock on your FPGA development board. 
