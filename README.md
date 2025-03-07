@@ -14,8 +14,6 @@ This project involves designing and implementing a digital alarm clock using Ver
 
 The project is structured to facilitate simulation and testing, with test benches provided for each module to verify functionality. Simulation results and waveform analyses are included to demonstrate the correct operation of the alarm clock.
 
-This project is ideal for individuals seeking to deepen their understanding of digital design and FPGA-based system implementation. 
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -27,8 +25,6 @@ This project is ideal for individuals seeking to deepen their understanding of d
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-
-Apologies for the earlier confusion. Here's the **Features** section formatted with navigable links, as per your request:
 
 ## Features
 
@@ -52,8 +48,6 @@ The LCD controller manages the display of current time and alarm settings on an 
 ### User Interaction
 
 The system includes user interface controls, such as buttons or switches, allowing users to set the current time, configure alarm times, and deactivate alarms. These controls facilitate seamless interaction with the digital alarm clock.
-
-​Apologies for the earlier formatting issue. Here's the corrected **Installation** section for your Digital Alarm Clock project, including a direct link to the video tutorial:
 
 ## Installation
 
@@ -123,8 +117,6 @@ To set up the Digital Alarm Clock project, follow these steps:
 
    - Add the compiled `.sof` file and click **Start** to program the FPGA.
 
-By following these steps, you will have successfully set up and programmed the Digital Alarm Clock on your FPGA development board. 
-
 ## Usage
 
 To effectively utilize the Digital Alarm Clock on your FPGA development board, follow these steps:
@@ -189,8 +181,6 @@ To effectively utilize the Digital Alarm Clock on your FPGA development board, f
 
 **Note:** The specific buttons or switches for each function may vary depending on your FPGA board's configuration. Consult your board's manual or the project's documentation for precise details.
 
-To provide a clear and organized overview of your Digital Alarm Clock project, here's a structured representation of your project's directory, along with brief explanations for each component. You can incorporate this directly into your `README.md` file to enhance clarity for collaborators and users.
-
 ## Project Structure
 
 ```
@@ -246,9 +236,6 @@ Digital-Alarm-Clock/
 
 - **README.md**: Provides an overview and documentation of the project.
 
-  To encourage and guide contributions to your Digital Alarm Clock project, it's beneficial to include a `CONTRIBUTING.md` file in your repository. This file provides potential contributors with clear instructions on how to participate effectively. Below is a template you can adapt for your project:
-
-
 # Contributing
 
 First off, thank you for considering contributing to our project! Your involvement is vital for its success.
@@ -291,7 +278,6 @@ By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md),
 ## Additional Resources
 
 - [Project Documentation](docs/)
-- [Issue Tracker](issues/)
 - [Contact Maintainers](mailto:eswaradithyakorrapolu@gmail.com)
 
 Thank you for your contributions!
