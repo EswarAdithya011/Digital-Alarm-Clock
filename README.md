@@ -19,6 +19,7 @@ This project is ideal for individuals seeking to deepen their understanding of d
 ## Table of Contents
 
 - [Overview](#overview)
+- [Project Description](#Project-Description)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,3 +28,9 @@ This project is ideal for individuals seeking to deepen their understanding of d
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+**Features**
+
+- **Real-Time Clock (RTC):** Maintains accurate timekeeping in a 24-hour format.
+- **Alarm Functionality:** Allows users to set and manage alarms, triggering alerts when the current time matches the set alarm time.
+- **LCD Display Interface:** Provides a user-friendly interface by displaying time and alarm settings on an LCD screen.
+- **User Interaction:** Enables users to set the current time and alarm time, and to stop the alarm through buttons or switches. 
