@@ -124,3 +124,69 @@ To set up the Digital Alarm Clock project, follow these steps:
    - Add the compiled `.sof` file and click **Start** to program the FPGA.
 
 By following these steps, you will have successfully set up and programmed the Digital Alarm Clock on your FPGA development board. 
+
+## Usage
+
+To effectively utilize the Digital Alarm Clock on your FPGA development board, follow these steps:
+
+1. **Power On the FPGA Board:**
+
+   Ensure that your FPGA development board is properly connected to a power source and powered on.
+
+2. **Set the Current Time:**
+
+   - **Activate Time Setting Mode:**
+
+     Press the designated 'Set Time' button or switch to enter the time-setting mode.
+
+   - **Adjust Hours and Minutes:**
+
+     Use the 'Hour' and 'Minute' buttons or switches to incrementally set the correct current time.
+
+   - **Confirm and Exit:**
+
+     Press the 'Set Time' button again to save the settings and return to the standard display mode.
+
+3. **Set the Alarm Time:**
+
+   - **Activate Alarm Setting Mode:**
+
+     Press the 'Set Alarm' button or switch to enter the alarm-setting mode.
+
+   - **Adjust Alarm Hours and Minutes:**
+
+     Utilize the 'Hour' and 'Minute' buttons or switches to set the desired alarm time.
+
+   - **Confirm and Exit:**
+
+     Press the 'Set Alarm' button once more to save the alarm settings and return to the standard display mode.
+
+4. **Enable or Disable the Alarm:**
+
+   - **Toggle Alarm Activation:**
+
+     Use the 'Alarm On/Off' switch to enable or disable the alarm functionality as needed.
+
+5. **Alarm Activation:**
+
+   - **Alarm Trigger:**
+
+     When the current time matches the set alarm time, the alarm will activate, producing an audible or visual alert.
+
+   - **Deactivate Alarm:**
+
+     Press the 'Alarm Off' or 'Snooze' button to silence the alarm.
+
+6. **LCD Display:**
+
+   - **Time Display:**
+
+     The LCD screen continuously displays the current time in a 24-hour format.
+
+   - **Alarm Status:**
+
+     The LCD may also indicate the status of the alarm, such as the set time and whether it is enabled or disabled.
+
+**Note:** The specific buttons or switches for each function may vary depending on your FPGA board's configuration. Consult your board's manual or the project's documentation for precise details.
+
+By following these instructions, you can effectively operate the Digital Alarm Clock implemented on your FPGA development board. 
