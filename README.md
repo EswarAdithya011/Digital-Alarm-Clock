@@ -23,7 +23,6 @@ The project is structured to facilitate simulation and testing, with test benche
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Features
@@ -293,9 +292,20 @@ Thank you for your contributions!
 
 4. **Update Additional Resources**: Ensure links to documentation, issue trackers, and contact information are accurate.
 
-## License
+## Acknowledgments
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+We would like to express our gratitude to the following for their support and contributions to this project:
+
+- **Maven Silicon** – For providing VLSI design training and technical insights.  
+- **Lovely Professional University (LPU)** – For academic guidance and resources.  
+- **Intel FPGA & Quartus Prime** – For enabling FPGA development and synthesis.  
+- **ModelSim Intel FPGA Edition** – For facilitating the simulation and verification of our Verilog designs.  
+- **Open-Source & Research Communities** – For valuable insights and contributions in digital design.  
+- **Professors, Mentors & Reviewers** – Special thanks to all those who provided valuable feedback and guidance.  
+- **Contributors** – Appreciation to everyone who contributed to improving this project.  
+
+Thank you for your support and collaboration!
+
 
 
 
