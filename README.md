@@ -248,12 +248,12 @@ Digital-Alarm-Clock/
 
   To encourage and guide contributions to your Digital Alarm Clock project, it's beneficial to include a `CONTRIBUTING.md` file in your repository. This file provides potential contributors with clear instructions on how to participate effectively. Below is a template you can adapt for your project:
 
-```
-# Contributing to Digital Alarm Clock
+
+# Contributing
 
 First off, thank you for considering contributing to our project! Your involvement is vital for its success.
-
-## How Can I Contribute?
+```
+## How Can U Contribute?
 
 ### Reporting Bugs
 
@@ -292,7 +292,7 @@ By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md),
 
 - [Project Documentation](docs/)
 - [Issue Tracker](issues/)
-- [Contact Maintainers](mailto:maintainers@example.com)
+- [Contact Maintainers](mailto:eswaradithyakorrapolu@gmail.com)
 
 Thank you for your contributions!
 ```
@@ -307,5 +307,4 @@ Thank you for your contributions!
 
 4. **Update Additional Resources**: Ensure links to documentation, issue trackers, and contact information are accurate.
 
-By providing clear contributing guidelines, you make it easier for others to participate, enhancing collaboration and the overall quality of the project. 
 
