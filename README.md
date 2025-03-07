@@ -293,4 +293,9 @@ Thank you for your contributions!
 
 4. **Update Additional Resources**: Ensure links to documentation, issue trackers, and contact information are accurate.
 
+## License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+
 
